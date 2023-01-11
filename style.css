@@ -1,0 +1,126 @@
+#tudo {
+	position: relative;
+}
+
+#fundo{
+	display: inline;
+	height: 100vh;
+    width: 100vw;
+}
+
+#Primeiro_botão {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	position: absolute;
+	width: 35%;
+	height: 4%;
+	left: 50%;
+	right: 50%;
+	top: 68%;
+	transform: translate(-50%, -50%);
+    border-radius: 16px;
+	border-color: #BB838E;
+	font-size: 70%;
+
+}
+
+#Primeiro_botão:active {
+	background:linear-gradient(#F2C3C1CC,#B4918F00);
+	border-color: #6A454C;
+}
+
+#botoes:active {
+	background:linear-gradient(#F2C3C1CC,#B4918F00);
+	border-color: #6A454C;
+}
+
+#voltar{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	position: absolute;
+	width: 20%;
+	height: 4%;
+	left: 50%;
+	right: 50%;
+	top: 90%;
+	transform: translate(-50%, -50%);
+    border-radius: 16px;
+	border-color: #BB838E;
+	font-size: 70%;
+}
+
+#noivos{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	position: absolute;
+	width: 50%;
+	height: 4%;
+	left: 72%;
+	right: 28%;
+	top: 69%;
+	transform: translate(-50%, -50%);
+    border-radius: 16px;
+	border-color: #BB838E;
+	font-size: 70%;
+}
+
+#noivos:active{
+	background:linear-gradient(#F2C3C1CC,#B4918F00);
+	border-color: #6A454C;
+}
+
+#presentes{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	position: absolute;
+	width: 50%;
+	height: 4%;
+	left: 72%;
+	right: 28%;
+	top: 75%;
+	transform: translate(-50%, -50%);
+    border-radius: 16px;
+	border-color: #BB838E;
+	font-size: 70%;
+}
+
+#presentes:active{
+	background:linear-gradient(#F2C3C1CC,#B4918F00);
+	border-color: #6A454C;
+}
+
+#hotel{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	position: absolute;
+	width: 50%;
+	height: 4%;
+	left: 72%;
+	right: 28%;
+	top: 81%;
+	transform: translate(-50%, -50%);
+    border-radius: 16px;
+	border-color: #BB838E;
+	text-align: center;
+	font-size: 70%;
+}
+
+#hotel:active{
+	background:linear-gradient(#F2C3C1CC,#B4918F00);
+	border-color: #6A454C;
+}
